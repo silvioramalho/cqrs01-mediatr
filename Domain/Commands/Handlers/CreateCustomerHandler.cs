@@ -27,7 +27,7 @@ namespace Cqrs01.Domain.Commands.Handlers
         public Task<CreateCustomerResponse> Handle(CreateCustomerRequest request, CancellationToken cancellationToken)
         {
             // Verifica se o cliente já está cadastrado
-            //Valida os dados
+            // Valida os dados
             // Insere cliente
             // Envia email de boas vindas
 
